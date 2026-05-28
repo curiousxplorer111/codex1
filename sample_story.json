@@ -1,0 +1,35 @@
+{
+  "title": "The Tiny Story of Ghrelin and Leptin",
+  "topic": "Ghrelin and Leptin",
+  "createdAt": "2026-05-28T00:00:00.000Z",
+  "pages": [
+    {
+      "type": "cover",
+      "heading": "The Tiny Story of Ghrelin and Leptin",
+      "subheading": "Cover page",
+      "text": "Open this little book to meet two body messengers that help us notice hunger and fullness.",
+      "illustration": "📖"
+    },
+    {
+      "type": "page",
+      "heading": "Meet the tiny guides",
+      "subheading": "Page 1",
+      "text": "Pip, Poppy, and Pebble learn that ghrelin is a messenger that can say, 'Your body may need food soon.' Leptin is a messenger that can help say, 'Your body has energy stored.'",
+      "illustration": "🧚‍♀️"
+    },
+    {
+      "type": "page",
+      "heading": "The little problem",
+      "subheading": "Page 2",
+      "text": "The guides wonder why hunger does not feel the same every day. They learn that sleep, meals, growth, activity, and routines can all affect hunger and fullness signals.",
+      "illustration": "🌿"
+    },
+    {
+      "type": "page",
+      "heading": "What we learned",
+      "subheading": "Page 3",
+      "text": "Ghrelin and leptin are part of a helpful body conversation. Listening kindly to the body, eating balanced meals, resting, and asking trusted adults or clinicians questions can support that conversation.",
+      "illustration": "⭐"
+    }
+  ]
+}

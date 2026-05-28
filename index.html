@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiny Storybook Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero" aria-labelledby="app-title">
+      <p class="eyebrow">A pocket-sized classroom tale maker</p>
+      <h1 id="app-title">Tiny Storybook Generator</h1>
+      <p class="hero-copy">
+        Type any topic and receive a soft, three-page storybook with tiny guides,
+        a gentle challenge, and one clear lesson to remember.
+      </p>
+
+      <form class="generator" id="generator-form">
+        <label for="topic-input">Story topic</label>
+        <div class="input-row">
+          <input
+            id="topic-input"
+            name="topic"
+            type="text"
+            placeholder="Try: moon gardens, ocean tides, photosynthesis"
+            autocomplete="off"
+          >
+          <button type="submit">Create Storybook</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="storybook" aria-live="polite" aria-label="Generated storybook">
+      <article class="page-card" id="page-card">
+        <div class="page-art" id="page-art" aria-hidden="true"></div>
+        <div class="page-content">
+          <p class="page-kicker" id="page-kicker">Cover page</p>
+          <h2 id="page-title">Waiting for a tiny tale</h2>
+          <p id="page-text">
+            Enter a topic above, then create a storybook to fill these watercolor pages.
+          </p>
+        </div>
+      </article>
+
+      <div class="storybook-controls" aria-label="Storybook navigation">
+        <button type="button" id="previous-page">Previous</button>
+        <p id="page-counter">Page 0 of 0</p>
+        <button type="button" id="next-page">Next</button>
+      </div>
+
+      <button type="button" class="download-button" id="download-json" disabled>
+        Download story as JSON
+      </button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
